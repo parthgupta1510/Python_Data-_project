@@ -55,7 +55,7 @@ df['job_skills'] = df['job_skills'].apply(lambda x: ast.literal_eval(x) if pd.no
 To focus my analysis on the Indian job market, I apply filters to the dataset, narrowing down to roles based in India.
 
 ```python
-df_US = df[df['job_country'] == 'India']
+df_ind = df[df['job_country'] == 'India']
 
 ```
 
@@ -84,7 +84,7 @@ plt.show()
 
 ### Results
 
-![Likelihood of Skills Requested in the US Job Postings](images/Likelihood_of_Skills_Requested_in_Indian_Job_Postings.png)
+![Likelihood of Skills Requested in Indian Job Postings](images/Likelihood_of_Skills_Requested_in_Indian_Job_Postings.png)
 
 *Bar graph visualizing the salary for the top 3 data roles and their top 5 skills associated with each.*
 
@@ -117,8 +117,8 @@ plt.show()
 
 ### Results
 
-![Trending Top Skills for Data Analysts in the US](images/Trending_Top_Skills_for_Data_Analysts_in_India.png)  
-*Bar graph visualizing the trending top skills for data analysts in the US in 2023.*
+![Trending Top Skills for Data Analysts in India](images/Trending_Top_Skills_for_Data_Analysts_in_India.png)  
+*Bar graph visualizing the trending top skills for data analysts in India in 2023.*
 
 ### Insights:
 - SQL is the most in-demand skill across all months, consistently staying above every other skill and peaking around mid-year.
@@ -145,7 +145,7 @@ plt.show()
 
 #### Results
 
-![Salary Distributions of Data Jobs in the US](images/Salary_Distributions_of_Data_Jobs_in_India.png)  
+![Salary Distributions of Data Jobs in India](images/Salary_Distributions_of_Data_Jobs_in_India.png)  
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 #### Insights
@@ -177,11 +177,11 @@ plt.show()
 ```
 
 #### Results
-Here's the breakdown of the highest-paid & most in-demand skills for data analysts in the US:
+Here's the breakdown of the highest-paid & most in-demand skills for data analysts in India:
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](images/Highest_Paid_and_Most_In_Demand_Skills_for_Data_Analysts_in_the_india.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in India](images/Highest_Paid_and_Most_In_Demand_Skills_for_Data_Analysts_in_the_india.png)
 
-*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
+*Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in India.*
 
 #### Insights:
 
@@ -210,8 +210,8 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US](images/Most_Optimal_Skills_for_Data_Analysts_in_india.png)    
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
+![Most Optimal Skills for Data Analysts in India](images/Most_Optimal_Skills_for_Data_Analysts_in_india.png)    
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in India.*
 
 #### Insights:
 
@@ -244,8 +244,8 @@ plt.show()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US with Coloring by Technology](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US_with_Coloring_by_Technology.png)  
-*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US with color labels for technology.*
+![Most Optimal Skills for Data Analysts in India with Coloring by Technology](images/Most_Optimal_Skills_for_Data_Analysts_in_the_US_with_Coloring_by_Technology.png)  
+*A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in India with color labels for technology.*
 
 #### Insights:
 
